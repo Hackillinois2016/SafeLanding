@@ -1,0 +1,40 @@
+Cough#Cough
+Sinusitis#Sinusitis
+Chronic sinusitis#Sinusitis
+Acute sinusitis#Sinusitis
+URI (upper respiratory infection)#Upper respiratory infection
+Upper respiratory disease#Upper respiratory infection
+Upper respiratory infection#Upper respiratory infection
+Acute upper respiratory infection#Upper respiratory infection
+Bronchitis#Bronchitis
+Acute bronchitis#Bronchitis
+Pneumonia#Pneumonia
+PNA (pneumonia)#Pneumonia
+Pharyngitis#Pharyngitis
+Acute pharyngitis#Pharyngitis
+Fever#Fever
+Fever, unspecified#Fever
+Sore throat#Sore throat
+Acute bronchiolitis#Bronchiolitis
+RSV (acute bronchiolitis due to respiratory syncytial virus)#Bronchiolitis
+Bronchiolitis#Bronchiolitis
+HCV (hepatitis C virus)#Hepatitis C
+Hepatitis C#Hepatitis C
+Strep pharyngitis#Strep throat
+Strep throat#Strep throat
+Flu#Flu
+Influenza#Flu
+MRSA (methicillin resistant staph aureus) culture positive#MRSA
+Bordetella pertussis bacterium#Pertussis
+HIV (human immunodeficiency virus infection)#HIV
+Human immunodeficiency virus (HIV) disease#HIV
+AIDS#AIDS
+Chicken pox#Chicken pox
+Rhinovirus#Rhinovirus
+HPV (human papilloma virus) anogenital infection#HPV
+Human papilloma virus#HPV
+Other viral agents as the cause of diseases classified elsewhere#Viral infection
+Viral infection#Viral infection
+Viral syndrome#Viral infection
+Viral illness#Viral infection
+Measles#Measles

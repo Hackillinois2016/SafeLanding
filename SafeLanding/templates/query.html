@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title>Safe Landing</title>
+		<link href="static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="static/css/query.css" rel="stylesheet">
+		<link href="static/css/awesomplete.css" rel="stylesheet">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js">
+		</script>
+		<script src="static/js/script.js"></script>
+		<script src="static/js/awesomplete.js" async></script>
+		<center><img src="static/logo.png" style="width:300px;height:130px;"></img></center>
+	</head>
+
+	<body>
+	<div class="container centerAlign">
+		<form class="form-signin" role="form">
+		<h2 class="centerAlign">Where are you flying from?</h2>
+		<input type="text" list="allAirports" id="apID" name="Airport" class="awesomplete" placeholder=" City" required autofocus>
+		<datalist id="allAirports">
+			<option value="Albuquerque NM (ABQ)">Albuquerque NM (ABQ)</option>
+			<option value="Albany NY (ALB)">Albany NY (ALB)</option>
+			<option value="Anchorage AK (ANC)">Anchorage AK (ANC)</option>
+			<option value="Atlanta GA (ATL)">Atlanta GA (ATL)</option>
+			<option value="Austin TX (AUS)">Austin TX (AUS)</option>
+			<option value="Birmingham AL (BHM)">Birmingham AL (BHM)</option>
+			<option value="Nashville TN (BNA)">Nashville TN (BNA)</option>
+			<option value="Boise ID (BOI)">Boise ID (BOI)</option>
+			<option value="Boston MA (BOS)">Boston MA (BOS)</option>
+			<option value="Burlington VA (BTV)">Burlington VA (BTV)</option>
+			<option value="Buffalo NY (BUF)">Buffalo NY (BUF)</option>
+			<option value="Burbank CA (BUR)">Burbank CA (BUR)</option>
+			<option value="Akron/Canton OH (CAK)">Akron/Canton OH (CAK)</option>
+			<option value="Chicago IL (CHI)">Chicago IL (CHI)</option>
+			<option value="Charleston SC (CHS)">Charleston SC (CHS)</option>
+			<option value="Cleveland OH (CLE)">Cleveland OH (CLE)</option>
+			<option value="Charlotte NC (CLT)">Charlotte NC (CLT)</option>
+			<option value="Columbus OH (CMH)">Columbus OH (CMH)</option>
+			<option value="Colorado Springs CO (COS)">Colorado Springs CO (COS)</option>
+			<option value="Cincinatti OH (CVG)">Cincinatti OH (CVG)</option>
+			<option value="Dayton OH (DAY)">Dayton OH (DAY)</option>
+			<option value="Denver CO (DEN)">Denver CO (DEN)</option>
+			<option value="Dallas/Fort Worth TX (DFW)">Dallas/Fort Worth TX (DFW)</option>
+			<option value="Des Moines IA (DSM)">Des Moines IA (DSM)</option>
+			<option value="Detroit MI (DTT)">Detroit MI (DTT)</option>
+			<option value="El Paso TX (ELP)">El Paso TX (ELP)</option>
+			<option value="Fort Lauderdale FL (FLL)">Fort Lauderdale FL (FLL)</option>
+			<option value="Fort Myers FL (FMY)">Fort Myers FL (FMY)</option>
+			<option value="Spokane WA (GEG)">Spokane WA (GEG)</option>
+			<option value="Grand Rapids MI (GRR)">Grand Rapids MI (GRR)</option>
+			<option value="Greensboro NC (GSO)">Greensboro NC (GSO)</option>
+			<option value="Greenville/Spartanburg SC (GSP)">Greenville/Spartanburg SC (GSP)</option>
+			<option value="Hartford CT (HFD)">Hartford CT (HFD)</option>
+			<option value="Honolulu HI (HNL)">Honolulu HI (HNL)</option>
+			<option value="Houston TX (HOU)">Houston TX (HOU)</option>
+			<option value="Westchester County NY (HPN)">Westchester County NY (HPN)</option>
+			<option value="Indianapolis IN (IND)">Indianapolis IN (IND)</option>
+			<option value="Jacksonville FL (JAX)">Jacksonville FL (JAX)</option>
+			<option value="Las Vegas NV (LAS)">Las Vegas NV (LAS)</option>
+			<option value="Los Angeles CA (LAX)">Los Angeles CA (LAX)</option>
+			<option value="Long Beach CA (LGB)">Long Beach CA (LGB)</option>
+			<option value="Memphis TN (MEM)">Memphis TN (MEM)</option>
+			<option value="Manchester NH (MHT)">Manchester NH (MHT)</option>
+			<option value="Miami FL (MIA)">Miami FL (MIA)</option>
+			<option value="Kansas City MO (MKC)">Kansas City MO (MKC)</option>
+			<option value="Milwaukee WI (MKE)">Milwaukee WI (MKE)</option>
+			<option value="Minneapolis MN (MSP)">Minneapolis MN (MSP)</option>
+			<option value="New Orleans LA (MSY)">New Orleans LA (MSY)</option>
+			<option value="New York NY (NYC)">New York NY (NYC)</option>
+			<option value="Oakland CA (OAK)">Oakland CA (OAK)</option>
+			<option value="Oklahoma City OK (OKC)">Oklahoma City OK (OKC)</option>
+			<option value="Omaha NE (OMA)">Omaha NE (OMA)</option>
+			<option value="Ontario CA (ONT)">Ontario CA (ONT)</option>
+			<option value="Norfolk VA (ORF)">Norfolk VA (ORF)</option>
+			<option value="Orlando FL (ORL)">Orlando FL (ORL)</option>
+			<option value="West Palm Beach  FL (PBI)">West Palm Beach  FL (PBI)</option>
+			<option value="Portland OR (PDX)">Portland OR (PDX)</option>
+			<option value="Philadelphia PA (PHL)">Philadelphia PA (PHL)</option>
+			<option value="Phoenix AZ (PHX)">Phoenix AZ (PHX)</option>
+			<option value="Pittsburgh PA (PIT)">Pittsburgh PA (PIT)</option>
+			<option value="Providence RI (PVD)">Providence RI (PVD)</option>
+			<option value="Raleigh/Durham NC (RDU)">Raleigh/Durham NC (RDU)</option>
+			<option value="Richmond VA (RIC)">Richmond VA (RIC)</option>
+			<option value="Reno NV (RNO)">Reno NV (RNO)</option>
+			<option value="Rochester NY (ROC)">Rochester NY (ROC)</option>
+			<option value="Sacramento CA (SAC)">Sacramento CA (SAC)</option>
+			<option value="San Diego CA (SAN)">San Diego CA (SAN)</option>
+			<option value="San Antonio TX (SAT)">San Antonio TX (SAT)</option>
+			<option value="Savannah GA (SAV)">Savannah GA (SAV)</option>
+			<option value="Louisville KY (SDF)">Louisville KY (SDF)</option>
+			<option value="Seattle WA (SEA)">Seattle WA (SEA)</option>
+			<option value="San Fransisco CA (SFO)">San Fransisco CA (SFO)</option>
+			<option value="San Jose CA (SJC)">San Jose CA (SJC)</option>
+			<option value="San Juan PR (SJU)">San Juan PR (SJU)</option>
+			<option value="Salt Lake City UT (SLC)">Salt Lake City UT (SLC)</option>
+			<option value="Santa Ana CA (SNA)">Santa Ana CA (SNA)</option>
+			<option value="St Louis MO (STL)">St Louis MO (STL)</option>
+			<option value="Syracuse NY (SYR)">Syracuse NY (SYR)</option>
+			<option value="Tampa FL (TPA)">Tampa FL (TPA)</option>
+			<option value="Tulsa OK (TUL)">Tulsa OK (TUL)</option>
+			<option value="Tucson AZ (TUS)">Tucson AZ (TUS)</option>
+			<option value="Knoxville TN (TYS)">Knoxville TN (TYS)</option>
+			<option value="Washington DC (WAS)">Washington DC (WAS)</option>
+		</datalist>
+		<button class="btn btn-lg btn-primary btn-block centerAlign" type="button" id="butt1">Find my destination!</button>
+		</form>
+		
+		<div id="plswait1">
+		</div>
+		
+		<form class="form-signin" role="form">
+		<h2 class="centerAlign">Where do you want to fly to?</h2>
+		<select class="centerAlign bottomPadding" id="destID" name="Destination">
+			<option>Select a point of origin.</option>
+		</select>
+		<button class="btn btn-lg btn-primary btn-block" type="button" id="butt2">Let's go!</button>
+	</form>
+	
+	<div id="plswait2">
+	</div>
+	
+	<div id="dlID">
+	</div>
+	
+	</div> 
+	</body>
+</html>
+

@@ -1,0 +1,14 @@
+Upper respiratory infection,29
+Bronchitis,19
+Sinusitis,18
+Cough,17
+Pneumonia,11
+Fever,8
+HIV,7
+Bronchiolitis,7
+Viral infection,6
+Pharyngitis,6
+Strep throat,6
+HPV,2
+Hepatitis C,2
+MRSA,1
