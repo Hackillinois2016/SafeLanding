@@ -7,13 +7,14 @@ __Dependencies:__
 Flask-0.10.1  
 Flask-Scss-0.5  
 simplejson  
-mySQL  
+mySQL 
+Awesomeplete   
 
 
 __Languages:__  
 Python-2.7.11  
 JavaScript/jQuery/AJAX  
-Scss/CSS  
+SCSS/CSS  
 HTML  
 
 
